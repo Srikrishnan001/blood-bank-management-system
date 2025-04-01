@@ -1,0 +1,77 @@
+.admin-control-container {
+    padding: 20px;
+}
+ 
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+ 
+.tab1 {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+   
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 10px; /* Make the corners slightly rounded to emphasize the square shape */
+    transition: background-color 0.3s, transform 0.3s; /* Add transition for smooth animation */
+    height: 150px; /* Ensure the tabs are square */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    
+}
+ 
+.tab1:hover {
+  background-color: #003366;
+  color: white;
+  font-weight: bold;
+  transform: scale(1.05);/* Add a slight zoom effect on hover */
+  background: linear-gradient(to right,#a36f5c, white 20%);
+    -webkit-text-fill-color: transparent;
+    animation: shine 1.5s infinite linear;
+    animation-fill-mode: forwards;
+    -webkit-text-size-adjust: none;
+    -webkit-background-clip: text;
+}
+ 
+.tab1 p {
+    margin-top: 10px;
+    font-size: 20px;
+}
+ 
+.tab1 a {
+    font-size:50px;
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+.btn1{
+    background-color: #81e485;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-bottom: 4px solid #19b81c;
+    border-radius: 9px;
+  }
+
+  .btn1:hover {
+    background-color: dark red;
+    color: white;
+    font-weight: bold;
+    transform: scale(1.09); /* Add a slight zoom effect on hover */
+}
+
+@keyframes shine{
+  0%{
+    background-position: 0}
+  60%{
+    background-position: 400px}
+  100%{
+    background-position: 200px}}
