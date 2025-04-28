@@ -1,0 +1,47 @@
+.thank-you-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust height as needed */
+  background-color: #f8f9fa; /* Light grey background */
+}
+ 
+.thank-you-content {
+  text-align: center;
+  width: 70%; /* Adjust width as needed */
+}
+ 
+.thank-you-heading {
+  font-size: 3rem; /* Larger font size */
+  margin-bottom: 1.5rem;
+}
+ 
+.thank-you-text {
+  font-size: 1.5rem; /* Larger font size */
+  margin-bottom: 2rem;
+}
+ 
+.thank-you-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+ 
+.large-icon {
+  font-size: 4rem; /* Larger icon size */
+  margin: 0 1.5rem; /* Increased margin between icons */
+}
+ 
+.btn-primary {
+  background-color: #007bff; /* Bootstrap primary color */
+  color: #fff;
+  padding: 1rem 2rem; /* Larger padding */
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem; /* Larger font size */
+  text-decoration: none;
+}
+ 
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker shade of primary color */
+}

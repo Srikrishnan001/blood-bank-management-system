@@ -1,0 +1,85 @@
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-family: cursive;
+}
+ 
+.text-container {
+  flex: 1;
+  max-width: 50%;
+}
+ 
+.text-container h1 {
+  font-size: 2.5rem;
+  color: #870707; /* Red color */
+}
+ 
+.text-container p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+ 
+.text-container .btn {
+  background-color: #c50b0b; /* Red color */
+  border: none;
+}
+ 
+.image-container {
+  flex: 1;
+  max-width: 100%;
+  text-align: center;
+  position:relative
+}
+ 
+.rotating-image {
+  max-width: 400%;
+  height: auto;
+  max-height: 500px; /* Control the max height to fit your needs */
+  object-fit: contain; /* Maintain aspect ratio */
+ 
+}
+ 
+.small-image {
+  width: 300px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  border: 1px solid #ddd; /* Optional: Add border for better visibility */
+  border-radius: 8px; /* Optional: Rounded corners */
+  margin-top: 20px; /* Optional: Space between text and image */
+}
+ 
+.navbar {
+  height: 70px; /* Make the navbar thicker */
+}
+ 
+  .image-container img {
+    width: 500px; /* Adjust width as needed */
+    height: auto; /* Maintains aspect ratio */
+    display: block;
+    margin: 0 auto; /* Centers the image */
+    box-shadow: 40px;
+  }
+  
+  p {
+    font-size: 1.2em;
+  }
+   
+  button {
+    background-color: rgb(165, 10, 10);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #animatedImage{
+    width:400px;
+    height: auto;
+    animation: fadeInOut 4s infinite;
+    box-shadow: 12px;
+  }
+  @keyframes fadeInOut {
+    0%, 100% { opacity: 0; }
+    50% { opacity: 1; }
+  }
